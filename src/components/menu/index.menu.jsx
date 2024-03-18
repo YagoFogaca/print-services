@@ -1,6 +1,6 @@
-import * as C from "./index.header.style";
+import * as C from "./index.menu.style";
 
-export function Header() {
+export function Menu() {
   return (
     <>
       <C.Aside>
