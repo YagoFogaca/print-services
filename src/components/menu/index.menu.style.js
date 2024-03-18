@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const Aside = styled.aside`
   padding: 15px 20px;
-  background-color: #fbefd5;
+  background-color: #561a26e3;
+
+  z-index: 1;
+  position: relative;
 `;
 
 export const NavDesktop = styled.nav`
@@ -30,13 +33,13 @@ export const LiDesktop = styled.li`
 export const LineAMenu = styled.div`
   width: 0%;
   height: 2px;
-  background-color: #561a26;
+  background-color: #fbefd5;
   transition: all 0.3s ease-in-out;
 `;
 
 export const AMenu = styled.a`
   text-decoration: none;
-  color: #561a26;
+  color: #fbefd5;
   font-weight: 700;
   font-size: 17px;
   transition: all 0.3s ease-in-out;
